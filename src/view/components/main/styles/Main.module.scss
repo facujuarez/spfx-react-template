@@ -1,0 +1,32 @@
+.dialogContenedor {
+
+  div[class^='ms-Dialog-actions'] {
+    margin: 0;
+  }
+
+}
+
+.actionButtonsContenedor {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.MteWpProcesoComprasHeaders {
+  color: #990000;
+  font-size: 12pt !important;
+  font-weight: bold;
+  margin-left: 7px;
+}
+
+:global #workbenchPageContent {
+  max-width: 100% !important;
+}
+
+:global {
+
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    max-width: 100% !important;
+  }
+}

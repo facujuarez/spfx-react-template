@@ -1,0 +1,36 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.spinnerColor{
+    fill: "[theme: themePrimary, default: #321850]" !important;
+}
+
+.spinnerColorBlock{
+  fill: "[theme: themePrimary, default: #321850]" !important;
+  display: block;
+  margin: auto;
+}
+
+.blockContainer{
+  width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.absoluteContainer{
+position:absolute;
+top: 0;
+left: 0;
+z-index: 9999;
+width: 100%;
+height: 100%;
+background: rgba($color: #fff, $alpha: 0.75);
+}
+
+.absoluteCenter{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -39px;
+margin-left: -35px;
+}

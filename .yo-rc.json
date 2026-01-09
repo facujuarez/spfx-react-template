@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.21.1",
+    "sdksVersions": {},
+    "version": "1.22.1",
+    "libraryName": "spfx-react-template",
+    "libraryId": "50524d60-cc42-4882-8f63-ac74d251978f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-react-template",
+    "solutionShortDescription": "spfx-react-template description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
